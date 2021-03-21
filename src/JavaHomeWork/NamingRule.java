@@ -7,6 +7,7 @@ public class NamingRule {
                 String str = sc.nextLine();
                 String[] words = str.split("_");
                 String result = words[0];
+                //
                 for(int i=1;i<words.length;i++){
                     result += (char)(words[i].charAt(0)-'a'+'A');
                     for(int j=1;j<words[i].length();j++){

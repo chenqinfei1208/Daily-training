@@ -1,6 +1,6 @@
 import java.util.*;
 public class OutPutScore {
-        public static void main(String[] agrs){
+        public static void main(String[] args){
             Scanner in=new Scanner(System.in);
             //首先，Scanner是一个扫描器
             // 它扫描数据都是去内存中一块缓冲区中进行扫描并读入数据的
